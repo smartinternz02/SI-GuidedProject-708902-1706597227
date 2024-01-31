@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Amazon_search_03,Chrome 120.0.0.0,,,26-01-2024 14:22:28,26-01-2024 14:23:44,1m - 16.912s,FAILED
+,,,,,,,
+Test Cases/TC_Amazon_Serach_03,Chrome 120.0.0.0,,,26-01-2024 14:23:39,26-01-2024 14:23:44,5.929s,FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,26-01-2024 14:23:39,26-01-2024 14:23:39,0.846s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 120.0.0.0,,,26-01-2024 14:23:39,26-01-2024 14:23:42,2.978s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Serach_OR_03/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in""))",Chrome 120.0.0.0,,,26-01-2024 14:23:42,26-01-2024 14:23:44,2.058s,FAILED

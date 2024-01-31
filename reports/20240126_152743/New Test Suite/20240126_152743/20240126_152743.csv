@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,Chrome 120.0.0.0,,,26-01-2024 15:27:51,26-01-2024 15:33:01,5m - 10.617s,FAILED
+,,,,,,,
+Test Cases/TC_Amazon_Login_01,Chrome 120.0.0.0,,,26-01-2024 15:32:49,26-01-2024 15:32:52,2.655s,FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,26-01-2024 15:32:49,26-01-2024 15:32:50,0.699s,PASSED
+"navigateToUrl(""www.amazon.com"")",Chrome 120.0.0.0,,,26-01-2024 15:32:50,26-01-2024 15:32:52,1.831s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Login_OR_01/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in""))",Chrome 120.0.0.0,,,26-01-2024 15:32:52,26-01-2024 15:32:52,0.087s,FAILED
+,,,,,,,
+Test Cases/TC_Amazon_location_02,Chrome 120.0.0.0,,,26-01-2024 15:32:56,26-01-2024 15:32:57,1.059s,FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,26-01-2024 15:32:56,26-01-2024 15:32:56,0.694s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 120.0.0.0,,,26-01-2024 15:32:56,26-01-2024 15:32:56,0.256s,PASSED
+"click(findTestObject(""Object Repository/Amazon_location_OR_02/Page_Amazon.com Womens customer-loved style_9c0cbd/span_Hello, sign in""))",Chrome 120.0.0.0,,,26-01-2024 15:32:56,26-01-2024 15:32:57,0.078s,FAILED
+,,,,,,,
+Test Cases/TC_Amazon_Serach_03,Chrome 120.0.0.0,,,26-01-2024 15:33:00,26-01-2024 15:33:01,1.265s,FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,26-01-2024 15:33:00,26-01-2024 15:33:01,0.705s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 120.0.0.0,,,26-01-2024 15:33:01,26-01-2024 15:33:01,0.453s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Serach_OR_03/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in""))",Chrome 120.0.0.0,,,26-01-2024 15:33:01,26-01-2024 15:33:01,0.076s,FAILED

@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Amazon_category,Chrome 120.0.0.0,,,27-01-2024 21:38:43,27-01-2024 21:40:51,2m - 7.703s,FAILED
+,,,,,,,
+Test Cases/TC_Amazon_Category,Chrome 120.0.0.0,,,27-01-2024 21:40:03,27-01-2024 21:40:51,48.084s,FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,27-01-2024 21:40:03,27-01-2024 21:40:04,1.001s,PASSED
+"navigateToUrl(""www.amazon.com"")",Chrome 120.0.0.0,,,27-01-2024 21:40:04,27-01-2024 21:40:07,3.104s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_category_or/Page_Amazon.com. Spend less. Smile more/categoryElement""), category, false)",Chrome 120.0.0.0,,,27-01-2024 21:40:07,27-01-2024 21:40:51,43.918s,FAILED

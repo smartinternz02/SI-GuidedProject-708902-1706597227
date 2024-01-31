@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Amazon_Login_01,Chrome 121.0.0.0,,,31-01-2024 13:51:15,31-01-2024 13:57:49,6m - 34.463s,FAILED
+,,,,,,,
+Test Cases/Record and Playback/TC_Amazon_Login,Chrome 121.0.0.0,,,31-01-2024 13:52:50,31-01-2024 13:53:17,27.125s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,31-01-2024 13:52:50,31-01-2024 13:52:53,3.130s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,31-01-2024 13:52:53,31-01-2024 13:52:54,0.793s,PASSED
+"navigateToUrl(""www.amazon.com"")",Chrome 121.0.0.0,,,31-01-2024 13:52:54,31-01-2024 13:52:56,1.449s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Login_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in""))",Chrome 121.0.0.0,,,31-01-2024 13:52:56,31-01-2024 13:53:15,19.086s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Login_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email""), email)",Chrome 121.0.0.0,,,31-01-2024 13:53:15,31-01-2024 13:53:15,0.844s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Login_OR/Page_Amazon Sign-In/input_Enter your email or mobile phone numb_fc7402""))",Chrome 121.0.0.0,,,31-01-2024 13:53:15,31-01-2024 13:53:17,1.428s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Amazon_Login_OR/Page_Amazon Sign-In/input_Forgot your password_password""), password)",Chrome 121.0.0.0,,,31-01-2024 13:53:17,31-01-2024 13:53:17,0.162s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,31-01-2024 13:53:17,31-01-2024 13:53:17,0.208s,PASSED
+,,,,,,,
+Test Cases/Record and Playback/TC_Amazon_Login,Chrome 121.0.0.0,,,31-01-2024 13:54:40,31-01-2024 13:55:52,1m - 12.507s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,31-01-2024 13:54:40,31-01-2024 13:54:43,3.610s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,31-01-2024 13:54:43,31-01-2024 13:54:44,0.826s,PASSED
+"navigateToUrl(""www.amazon.com"")",Chrome 121.0.0.0,,,31-01-2024 13:54:44,31-01-2024 13:54:48,4.080s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Login_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in""))",Chrome 121.0.0.0,,,31-01-2024 13:54:48,31-01-2024 13:55:47,58.350s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Login_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email""), email)",Chrome 121.0.0.0,,,31-01-2024 13:55:47,31-01-2024 13:55:50,3.821s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Login_OR/Page_Amazon Sign-In/input_Enter your email or mobile phone numb_fc7402""))",Chrome 121.0.0.0,,,31-01-2024 13:55:50,31-01-2024 13:55:52,1.400s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Amazon_Login_OR/Page_Amazon Sign-In/input_Forgot your password_password""), password)",Chrome 121.0.0.0,,,31-01-2024 13:55:52,31-01-2024 13:55:52,0.147s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,31-01-2024 13:55:52,31-01-2024 13:55:52,0.254s,PASSED
+,,,,,,,
+Test Cases/Record and Playback/TC_Amazon_Login,Chrome 121.0.0.0,,,31-01-2024 13:57:30,31-01-2024 13:57:49,19.794s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,31-01-2024 13:57:30,31-01-2024 13:57:32,2.698s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,31-01-2024 13:57:32,31-01-2024 13:57:33,0.836s,PASSED
+"navigateToUrl(""www.amazon.com"")",Chrome 121.0.0.0,,,31-01-2024 13:57:33,31-01-2024 13:57:35,1.707s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Login_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in""))",Chrome 121.0.0.0,,,31-01-2024 13:57:35,31-01-2024 13:57:46,11.141s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Login_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email""), email)",Chrome 121.0.0.0,,,31-01-2024 13:57:46,31-01-2024 13:57:47,1.284s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Login_OR/Page_Amazon Sign-In/input_Enter your email or mobile phone numb_fc7402""))",Chrome 121.0.0.0,,,31-01-2024 13:57:47,31-01-2024 13:57:49,1.723s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Amazon_Login_OR/Page_Amazon Sign-In/input_Forgot your password_password""), password)",Chrome 121.0.0.0,,,31-01-2024 13:57:49,31-01-2024 13:57:49,0.146s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,31-01-2024 13:57:49,31-01-2024 13:57:49,0.227s,PASSED
